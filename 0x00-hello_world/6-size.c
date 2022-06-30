@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - size of various types
+ * print the sizes in bytes of various types
  * Return: 0 as requuested
  */
 int main(void)
