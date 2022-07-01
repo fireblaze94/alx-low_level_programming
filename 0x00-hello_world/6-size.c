@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - size of various types
+ * main - prints the standard error
  * print the sizes in bytes of various types
- * Return: 0 as requuested
+ * Return: 0 as requested
  */
 
 int main(void)
