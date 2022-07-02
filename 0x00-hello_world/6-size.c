@@ -3,7 +3,7 @@
 /**
  * main - prints the standard error
  * print the sizes in bytes of various types
- * Return: 0 as requested
+ * Return: 0 (success)
  */
 
 int main(void)
