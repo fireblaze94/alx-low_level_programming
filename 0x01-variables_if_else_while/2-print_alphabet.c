@@ -9,10 +9,13 @@
 int main(void)
 {
 	char smallChar;
+
 	for (smallChar = 'a'; smallChar <= 'z'; smallChar++)
 	{
 		putchar(smallChar);
-		putchar('\n');
 	}
+
+	putchar('\n');
+	
 	return (0);
 }
