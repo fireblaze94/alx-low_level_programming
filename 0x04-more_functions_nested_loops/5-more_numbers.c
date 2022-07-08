@@ -5,14 +5,18 @@
  * @n: An input integer
  * Return: Always 0
  */
-void print_line(int n)
+void more_numbers(void)
 {
-	int i = 0;
+	int x, y;
 	
-	if (n > 0)
+	for (x = 0; x < 10; x++)
 	{
-		for (; i < n; i++)
-			_putchar('_');
+		for (y = 0; y < 15; y++)
+		{
+			if (y >= 10)
+				_putchar((y / 10) + '0');
+			_putchar((y % 10) + '0');
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
