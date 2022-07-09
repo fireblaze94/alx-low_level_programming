@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_line - a function that draws a straight line in the terminal.
+ * more_numbers - a function that draws a straight line in the terminal.
  */
 void more_numbers(void)
 {
 	int x, y;
-	
+
 	for (x = 0; x < 10; x++)
 	{
 		for (y = 0; y < 15; y++)
@@ -14,6 +14,6 @@ void more_numbers(void)
 				_putchar((y / 10) + '0');
 			_putchar((y % 10) + '0');
 		}
-		_putchar('\n');
+		_putchar('\n')
 	}
 }
