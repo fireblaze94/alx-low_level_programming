@@ -44,7 +44,6 @@ int _atoi(char *s)
 			num += (s[x] - '0') * mult * neg;
 			mult /= 10;
 		}
-
 	}
 
 	return (num);
