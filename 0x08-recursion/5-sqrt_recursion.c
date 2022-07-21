@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 
 int _sqrt(int prev, int root);
 
