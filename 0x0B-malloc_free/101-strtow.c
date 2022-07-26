@@ -7,8 +7,7 @@
  * Return: Apointer to concatened strings or NULL if it str is NULL
  */
 char **strtow(char *str)
-{
-char **array;
+{char **array;
 int i = 0, j, m, k = 0, len = 0, count = 0;
 
 if (str == NULL || *str == '\0')
@@ -17,7 +16,7 @@ for (; str[i]; i++)
 {
 	if ((str[i] != ' ' || *str != '\t') &&
 		((str[i + 1] == ' ' || str[i + 1] == '\t') ||
-		 str[i + 1] == '\n'))
+					 str[i + 1] == '\n'))
 	count++;
 }
 if (count == 0)
@@ -46,6 +45,7 @@ for (i = 0; str[i] != '\0' && k < count; i++)
 	array[k++][m] = '\0';
 	}
 }
+
 array[k] = NULL;
 return (array);
 }
